@@ -8,13 +8,16 @@ namespace Kebab_house
 {
     internal class Sklad
     {
-        public int ZasobaMasa = 200;
-        //private int ZasobaSalat = 100;
-        //private int ZasobaZelí = 50;
+        public int ZasobaMasa { get; private set; }
+        public int ZasobaSalat { get; private set; }
+        public int ZasobaZelí  { get; private set ;}
 
-
-        //public int StavMasa(ZasobaMasa - SpotrebaMasa);
-
-
+        public Sklad(int zasobaMasa, int zasobaSalat, int zasobaZelí)
+        {
+            ZasobaMasa = zasobaMasa;
+            ZasobaSalat = zasobaSalat;
+            ZasobaZelí = zasobaZelí;
+        }
     }
+        public void OdeberSuroviny()
 }
