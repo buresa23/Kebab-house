@@ -10,7 +10,7 @@ namespace Kebab_house
     {
         public int ZasobaMasa { get; private set; }
         public int ZasobaSalat { get; private set; }
-        public int ZasobaZelí  { get; private set ;}
+        public int ZasobaZelí { get; private set; }
 
         public Sklad(int zasobaMasa, int zasobaSalat, int zasobaZelí)
         {
@@ -18,6 +18,11 @@ namespace Kebab_house
             ZasobaSalat = zasobaSalat;
             ZasobaZelí = zasobaZelí;
         }
-    }
-        public void OdeberSuroviny()
-}
+    }   public bool KontrolaMnozstviSurovin(int zasobaMasa, int zasobaSalt, int zasobaZeli) 
+        {if ( ) 
+        
+        
+        
+        
+        
+        }
