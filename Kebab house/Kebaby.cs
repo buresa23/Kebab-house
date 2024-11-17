@@ -11,8 +11,14 @@ namespace Kebab_house
         public string Nazev { get; private set; }
         public int PotrebneMaso {  get; private set; }
         public int PotrebneSalat { get; private set; }
+        public int PotrebneZeli { get; private set; }
 
-        public Kebaby()
+        public Kebaby(string nazev, int potrebneMaso, int potrebneSalat, int potrebneZeli) 
+        {
+        PotrebneMaso = potrebneMaso;
+        PotrebneSalat = potrebneSalat;
+        PotrebneZeli = potrebneZeli;
+        }
 
     }
 }
