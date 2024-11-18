@@ -19,11 +19,12 @@ namespace Kebab_house
             ZasobaZelí = zasobaZelí;
         }
     }
-     //public bool KontrolaMnozstviSurovin(int zasobaMasa, int zasobaSalt, int zasobaZeli) 
-        //{if (Kebaby. ) 
-        
-        
-        
-        
-        
-        //}
+    public bool KontrolaMnozstviSurovin(int zasobaMasa, int zasobaSalt, int zasobaZeli)
+    {
+        if ()
+
+
+
+    }
+
+}
